@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import { Image, Menu, Icon } from 'semantic-ui-react';
 
 export default class TopMenu extends Component{
   render(){
     return (
-      <Menu borderless style={menuStyle} >
+      <Menu borderless style={{width:'100%'}} >
         <Menu.Item position={"left"} >
           <Icon name='ellipsis horizontal' size='large' style={{marginLeft:10, marginRight:10}}/>
           <Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-yiXNE7kEemvWApuphU4LxUNToU6XsM-8accZ2s15uMs3yyH4mg' avatar />
@@ -16,7 +17,7 @@ export default class TopMenu extends Component{
           position={'right'}
         >
           <a style={{paddingRight:10, fontSize:20}}>Support</a>
-          <Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-yiXNE7kEemvWApuphU4LxUNToU6XsM-8accZ2s15uMs3yyH4mg' avatar />
+          <Image style={{marginRight:10}} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-yiXNE7kEemvWApuphU4LxUNToU6XsM-8accZ2s15uMs3yyH4mg' avatar />
         </Menu.Item>
       </Menu>
     )
