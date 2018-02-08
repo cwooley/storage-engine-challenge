@@ -10,8 +10,8 @@ export default class TopMenu extends Component{
           <Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-yiXNE7kEemvWApuphU4LxUNToU6XsM-8accZ2s15uMs3yyH4mg' avatar />
           <p style={{color:'grey', fontWeight:'bold', fontSize:20, marginLeft:10}}>Stealth Cloud</p>
         </Menu.Item>
-        <Menu.Item style={{margin:'auto'}}>
-          <p style={{color:'green', fontWeight:'bold', fontSize:20, paddingRight:16}}>PRODUCTION</p>
+        <Menu.Item style={{marginRight:90}}>
+          <p style={{color:'green', fontWeight:'bold', fontSize:20, paddingRight:16, textAlign:'center'}}>PRODUCTION</p>
         </Menu.Item>
         <Menu.Item
           position={'right'}
